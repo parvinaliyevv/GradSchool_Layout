@@ -1,0 +1,53 @@
+body {
+    background-image: url('../images/bg_image.jpg');
+    background-repeat: round;
+}
+
+input {
+    color: ghostwhite;
+    border: none;
+}
+
+::placeholder {  /* was necessary */
+    color: ghostwhite;
+}
+
+p {
+    font-family: Calibri, sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    opacity: 90%;
+}
+
+textarea {
+    color: ghostwhite;
+    background-color: #424b5c;
+    resize: none;
+    border: none;
+}
+
+label {
+    font: 800 35px sans-serif;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-weight: 800;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+h1 {
+    line-height: 30px;
+    font-size: 3em;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border-radius: 10% 1% 1% 10%;
+    box-shadow: 4px 4px 10px #000;
+}
